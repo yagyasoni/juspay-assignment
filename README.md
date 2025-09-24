@@ -25,7 +25,7 @@ To set up and run the project on your local machine, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [](https://github.com/yagyasoni/juspay-assignment.git)
+    git clone https://github.com/yagyasoni/juspay-assignment.git
     cd [YOUR_REPOSITORY_NAME]
     ```
 
