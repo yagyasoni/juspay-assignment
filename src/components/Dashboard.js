@@ -34,7 +34,8 @@ const metrics = [
     trend: 'up',
     lightBg: '#E3F5FF',
     darkBg: '#E3F5FF',
-    textColor: '#181A20'
+    textColor: '#181A20',
+    tCW: '#181A20'
   },
   {
     title: 'Orders',
@@ -43,7 +44,8 @@ const metrics = [
     trend: 'down',
     lightBg: '#F7F9FB',
     darkBg: '#23272F',
-    textColor: '#FFF'
+    textColor: '#FFF',
+    tCW: '#181A20'
   },
   {
     title: 'Revenue',
@@ -52,7 +54,8 @@ const metrics = [
     trend: 'up',
     lightBg: '#F7F9FB',
     darkBg: '#23272F',
-    textColor: '#FFF'
+    textColor: '#FFF',
+    tCW: '#181A20'
   },
   {
     title: 'Growth',
@@ -61,7 +64,8 @@ const metrics = [
     trend: 'up',
     lightBg: '#E5ECF6',
     darkBg: '#E5ECF6',
-    textColor: '#181A20'
+    textColor: '#181A20',
+    tCW: '#181A20'
   }
 ];
 
@@ -165,7 +169,7 @@ export function Dashboard() {
                       <Typography
                         variant="h4"
                         sx={{
-                          color: metric.textColor,
+                          color: isDark ? metric.textColor : metric.tCW,
                           fontWeight: 600,
                           fontSize: "1.75rem"
                         }}
