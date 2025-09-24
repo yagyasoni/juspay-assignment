@@ -65,5 +65,5 @@ The project is submitted via a public GitHub repository and includes the followi
 
 ### Deployed Application
 
-[Deployed Application Link Here :- ]](https://juspay-assignment-psi.vercel.app/)
+https://juspay-assignment-psi.vercel.app/
 
