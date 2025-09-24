@@ -1,4 +1,3 @@
-````
 # Project README
 
 This project is a dashboard built in React as an assignment for a UI Developer position. The repository contains the source code for a responsive and feature-rich SaaS dashboard.
